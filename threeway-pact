@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en" class="h-full">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XNN News Article</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script src="/_sdk/element_sdk.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&amp;family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet">
+  <style>
+    .headline-font { font-family: 'Playfair Display', Georgia, serif; }
+    .body-font { font-family: 'Source Serif 4', Georgia, serif; }
+    .ui-font { font-family: 'Inter', system-ui, sans-serif; }
+  </style>
+  <style>body { box-sizing: border-box; }</style>
+  <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
+ </head>
+ <body class="h-full">
+  <div id="app-wrapper" class="h-full w-full overflow-auto" style="background-color: #0a0a0f;">
+   <!-- Main Container -->
+   <div class="min-h-full w-full" style="background-color: #0a0a0f;">
+    <!-- Header Bar -->
+    <header class="border-b" style="border-color: #c41e3a; background-color: #0f0f15;">
+     <div class="max-w-4xl mx-auto px-6 py-4">
+      <div class="flex items-center justify-between">
+       <!-- XNN Logo -->
+       <div class="flex items-center gap-3">
+        <div class="w-12 h-12 flex items-center justify-center" style="background-color: #c41e3a;">
+         <span class="text-white font-bold text-xl ui-font tracking-tight">XNN</span>
+        </div>
+        <div>
+         <div class="text-white ui-font font-semibold text-sm tracking-widest">
+          XANARCICA
+         </div>
+         <div class="ui-font text-xs tracking-wider" style="color: #8a8a9a;">
+          NATIONAL NETWORK
+         </div>
+        </div>
+       </div><!-- Section Tag -->
+       <div class="px-3 py-1 text-xs ui-font font-semibold tracking-wider" style="background-color: #c41e3a; color: white;">
+        BREAKING NEWS
+       </div>
+      </div>
+     </div>
+    </header><!-- Article Content -->
+    <main class="max-w-4xl mx-auto px-6 py-10">
+     <!-- Article Header -->
+     <article>
+      <!-- Category & Date -->
+      <div class="flex items-center gap-4 mb-6">
+       <span id="section-tag" class="px-2 py-1 text-xs ui-font font-semibold tracking-wider" style="background-color: #1a1a25; color: #c41e3a; border: 1px solid #c41e3a;"> INTERNATIONAL TRADE </span> <span class="ui-font text-sm" style="color: #6a6a7a;">March 15, 2026 • 14:32 UTC</span>
+      </div><!-- Headline -->
+      <h1 id="headline" class="headline-font text-4xl md:text-5xl font-extrabold leading-tight mb-4" style="color: #ffffff;">Seravell Summit Concludes with Landmark Economic and Security Pact</h1><!-- Subheadline -->
+      <p id="subheadline" class="body-font text-xl md:text-2xl leading-relaxed mb-8" style="color: #b0b0c0;">GHXE, Crossia, and San Caelora announce tariff liberalization, six-month defense framework, and establishment of Arsenic Trade Organization</p><!-- Byline -->
+      <div class="flex items-center gap-4 pb-8 mb-8 border-b" style="border-color: #2a2a35;">
+       <div class="w-10 h-10 rounded-full flex items-center justify-center ui-font font-semibold" style="background-color: #1a1a25; color: #c41e3a;">
+        SR
+       </div>
+       <div>
+        <div id="author-name" class="ui-font font-semibold text-sm" style="color: #ffffff;">
+         Sarah Richardson
+        </div>
+        <div class="ui-font text-xs" style="color: #6a6a7a;">
+         International Affairs Correspondent
+        </div>
+       </div>
+      </div><!-- Article Body -->
+      <div class="body-font text-lg leading-relaxed space-y-6" style="color: #d0d0e0;">
+       <p><span id="dateline" class="ui-font font-semibold" style="color: #ffffff;">SERAVELL —</span> In what officials are describing as a "structural recalibration of regional economic and maritime stability," the Great Holy Xanarcica Empire (GHXE), the Republic of Crossia, and San Caelora concluded high-level negotiations inside the Imperial Strategic Assembly Chamber on Thursday.</p>
+       <p>The summit, convened and hosted by Saint Empress Angel V. Xana, produced coordinated agreements on tariff reductions, managed agricultural exchange mechanisms, joint naval exercises, and the formal creation of a new multilateral economic body — the Arsenic Trade Organization (ATO).</p>
+       <p>Imperial officials framed the outcome as both an economic modernization step and a controlled security alignment measure.</p>
+       <h2 class="headline-font text-2xl font-bold mt-8 mb-4" style="color: #ffffff;">Coordinated Tariff Liberalization</h2>
+       <p>According to the trilateral communiqué, the agreement includes:</p>
+       <ul class="space-y-2 ml-6" style="color: #d0d0e0;">
+        <li>Elimination of most agricultural tariffs between GHXE and San Caelora</li>
+        <li>Substantial reductions on Crossian steel, alloy, and manufactured exports</li>
+        <li>Commodity price stabilization mechanisms for sugar, coffee, vanilla, and cocoa</li>
+        <li>Streamlined customs processing across designated trade corridors</li>
+       </ul>
+       <p>An Imperial Trade Ministry representative described the arrangement as "the most comprehensive tariff harmonization between the three states to date," emphasizing that safeguards remain in place to prevent strategic overexposure.</p>
+       <p>"The objective is frictionless commerce without strategic vulnerability," the official stated.</p>
+       <p>Crossian delegates highlighted industrial export expansion, while San Caelora's delegation emphasized predictable agricultural access to GHXE markets.</p>
+       <h2 class="headline-font text-2xl font-bold mt-8 mb-4" style="color: #ffffff;">Structured Agricultural Security Framework</h2>
+       <p>The agreement formalizes a managed agricultural exchange structure:</p>
+       <ul class="space-y-2 ml-6" style="color: #d0d0e0;">
+        <li>San Caelora will export high-volume crop yields to GHXE under contracted quotas.</li>
+        <li>GHXE will process, store, and redistribute a defined portion to Crossia.</li>
+        <li>Supply allocations will remain insulated from political fluctuations for the duration of the pact.</li>
+       </ul>
+       <p>Economic analysts describe the mechanism as a "food-security triangle," ensuring supply predictability while balancing industrial and agricultural interdependence.</p>
+       <h2 class="headline-font text-2xl font-bold mt-8 mb-4" style="color: #ffffff;">Six-Month Mutual Defense Framework</h2>
+       <p>In parallel to economic integration, leaders signed two time-bound security instruments:</p>
+       <p><strong>Mutual Defense Pact (MDP)</strong><br>
+         A defensive consultation framework triggered in the event of verified external aggression.</p>
+       <p><strong>Non-Aggression Pact (NAP)</strong><br>
+         A binding commitment prohibiting hostile military action among the three signatories.</p>
+       <p>Both agreements will expire in six months unless renewed unanimously.</p>
+       <p>Officials characterized the limited duration as a confidence-building measure designed to evaluate interoperability, trust, and strategic compatibility before long-term institutionalization.</p>
+       <h2 class="headline-font text-2xl font-bold mt-8 mb-4" style="color: #ffffff;">Joint Naval Exercises Announced</h2>
+       <p>Defense ministries confirmed that trilateral maritime exercises will begin next quarter, with participation from the Royal Xara Navy alongside Crossian and Caeloran naval forces.</p>
+       <p>Planned focus areas include:</p>
+       <ul class="space-y-2 ml-6" style="color: #d0d0e0;">
+        <li>Maritime convoy protection</li>
+        <li>Counter-trafficking operations</li>
+        <li>Coordinated interdiction drills</li>
+        <li>Logistics and command interoperability</li>
+       </ul>
+       <p>Military sources stressed that the exercises are defensive in scope and aimed at enhancing maritime security across shared trade corridors.</p>
+       <h2 class="headline-font text-2xl font-bold mt-8 mb-4" style="color: #ffffff;">Establishment of the Arsenic Trade Organization</h2>
+       <p>The summit's most consequential institutional outcome is the creation of the Arsenic Trade Organization (ATO) — a permanent economic coordination body tasked with:</p>
+       <ul class="space-y-2 ml-6" style="color: #d0d0e0;">
+        <li>Harmonizing tariff structures</li>
+        <li>Coordinating customs policy</li>
+        <li>Resolving trade disputes</li>
+        <li>Standardizing export and compliance regulations</li>
+       </ul>
+       <p>The ATO will be headquartered in the Xana Colony of Aurvenia, selected for its deep-water port infrastructure and geographic position between GHXE, Crossia, and San Caelora.</p>
+       <p>Aurvenia's logistical capacity and commercial neutrality were cited as decisive factors in the site selection.</p>
+       <p>Observers note that while the ATO mirrors functional aspects of global trade institutions, member states emphasized that it remains strictly economic in mandate and does not constitute a political union.</p>
+       <div class="my-8 p-6 rounded" style="background-color: #0f0f18; border: 1px solid #2a2a35;">
+        <h3 class="ui-font font-semibold text-sm tracking-wider mb-4" style="color: #c41e3a;">LEADERSHIP STATEMENTS</h3>
+        <p style="color: #d0d0e0; font-style: italic; margin-bottom: 12px;">"Stability is not declared. It is engineered. Through discipline in commerce and clarity in defense, we construct a future that does not depend on chance."</p>
+        <p style="color: #8a8a9a; font-size: 14px;">— Saint Empress Angel V. Xana, GHXE</p>
+       </div>
+       <p>Crossian representatives described the agreement as "balanced and conditional," while San Caelora's delegation underscored maritime security improvements and guaranteed agricultural revenue flows.</p>
+       <h2 class="headline-font text-2xl font-bold mt-8 mb-4" style="color: #ffffff;">Regional Outlook</h2>
+       <p>Preliminary economic projections suggest:</p>
+       <ul class="space-y-2 ml-6" style="color: #d0d0e0;">
+        <li>Increased steel and alloy integration into GHXE shipbuilding and infrastructure sectors</li>
+        <li>Revenue stabilization for San Caelora's agricultural economy</li>
+        <li>Gradual consumer commodity price reductions across all three markets</li>
+        <li>Enhanced maritime coordination along critical sea lanes</li>
+       </ul>
+       <p>While optimism characterizes official statements, analysts note that the six-month duration of the MDP and NAP will serve as the first practical test of trilateral durability.</p>
+       <p>For now, Seravell stands as a pivot point. Whether the Arsenic Trade Organization matures into a long-term economic pillar or remains a transitional coordination framework will depend on performance in the months ahead.</p>
+      </div><!-- Article Footer -->
+      <footer class="mt-10 pt-8 border-t" style="border-color: #2a2a35;">
+       <div class="flex flex-wrap items-center justify-between gap-4">
+        <div class="flex items-center gap-2">
+         <span class="ui-font text-xs font-semibold" style="color: #6a6a7a;">TAGS:</span> <span class="px-2 py-1 text-xs ui-font" style="background-color: #1a1a25; color: #8a8a9a;">Trade Agreement</span> <span class="px-2 py-1 text-xs ui-font" style="background-color: #1a1a25; color: #8a8a9a;">Economic Union</span> <span class="px-2 py-1 text-xs ui-font" style="background-color: #1a1a25; color: #8a8a9a;">International Relations</span>
+        </div>
+        <div class="ui-font text-xs" style="color: #6a6a7a;">
+         © 2026 Xanarcica National Network. All rights reserved.
+        </div>
+       </div>
+      </footer>
+     </article>
+    </main>
+   </div>
+  </div>
+  <script>
+    const defaultConfig = {
+      headline: "Seravell Summit Concludes with Landmark Economic and Security Pact",
+      subheadline: "GHXE, Crossia, and San Caelora announce tariff liberalization, six-month defense framework, and establishment of Arsenic Trade Organization",
+      author_name: "Sarah Richardson",
+      location: "SERAVELL",
+      section_tag: "INTERNATIONAL TRADE",
+      background_color: "#0a0a0f",
+      surface_color: "#0f0f18",
+      text_color: "#d0d0e0",
+      accent_color: "#c41e3a",
+      secondary_color: "#1a1a25",
+      font_family: "Source Serif 4",
+      font_size: 18
+    };
+
+    async function initializeApp() {
+      if (window.elementSdk) {
+        await window.elementSdk.init({
+          defaultConfig,
+          onConfigChange: async (config) => {
+            // Update headline
+            const headlineEl = document.getElementById('headline');
+            if (headlineEl) {
+              headlineEl.textContent = config.headline || defaultConfig.headline;
+            }
+
+            // Update subheadline
+            const subheadlineEl = document.getElementById('subheadline');
+            if (subheadlineEl) {
+              subheadlineEl.textContent = config.subheadline || defaultConfig.subheadline;
+            }
+
+            // Update author name
+            const authorEl = document.getElementById('author-name');
+            if (authorEl) {
+              authorEl.textContent = config.author_name || defaultConfig.author_name;
+            }
+
+            // Update dateline location
+            const datelineEl = document.getElementById('dateline');
+            if (datelineEl) {
+              datelineEl.textContent = (config.location || defaultConfig.location) + " —";
+            }
+
+            // Update section tag
+            const sectionEl = document.getElementById('section-tag');
+            if (sectionEl) {
+              sectionEl.textContent = config.section_tag || defaultConfig.section_tag;
+            }
+
+            // Update colors
+            const bgColor = config.background_color || defaultConfig.background_color;
+            const surfaceColor = config.surface_color || defaultConfig.surface_color;
+            const textColor = config.text_color || defaultConfig.text_color;
+            const accentColor = config.accent_color || defaultConfig.accent_color;
+            const secondaryColor = config.secondary_color || defaultConfig.secondary_color;
+
+            document.getElementById('app-wrapper').style.backgroundColor = bgColor;
+            document.querySelector('.min-h-full').style.backgroundColor = bgColor;
+
+            // Update font
+            const fontFamily = config.font_family || defaultConfig.font_family;
+            const fontSize = config.font_size || defaultConfig.font_size;
+            document.querySelectorAll('.body-font').forEach(el => {
+              el.style.fontFamily = `${fontFamily}, Georgia, serif`;
+              if (el.classList.contains('text-lg')) {
+                el.style.fontSize = `${fontSize}px`;
+              }
+            });
+          },
+          mapToCapabilities: (config) => ({
+            recolorables: [
+              {
+                get: () => config.background_color || defaultConfig.background_color,
+                set: (value) => { config.background_color = value; window.elementSdk.setConfig({ background_color: value }); }
+              },
+              {
+                get: () => config.surface_color || defaultConfig.surface_color,
+                set: (value) => { config.surface_color = value; window.elementSdk.setConfig({ surface_color: value }); }
+              },
+              {
+                get: () => config.text_color || defaultConfig.text_color,
+                set: (value) => { config.text_color = value; window.elementSdk.setConfig({ text_color: value }); }
+              },
+              {
+                get: () => config.accent_color || defaultConfig.accent_color,
+                set: (value) => { config.accent_color = value; window.elementSdk.setConfig({ accent_color: value }); }
+              },
+              {
+                get: () => config.secondary_color || defaultConfig.secondary_color,
+                set: (value) => { config.secondary_color = value; window.elementSdk.setConfig({ secondary_color: value }); }
+              }
+            ],
+            borderables: [],
+            fontEditable: {
+              get: () => config.font_family || defaultConfig.font_family,
+              set: (value) => { config.font_family = value; window.elementSdk.setConfig({ font_family: value }); }
+            },
+            fontSizeable: {
+              get: () => config.font_size || defaultConfig.font_size,
+              set: (value) => { config.font_size = value; window.elementSdk.setConfig({ font_size: value }); }
+            }
+          }),
+          mapToEditPanelValues: (config) => new Map([
+            ["headline", config.headline || defaultConfig.headline],
+            ["subheadline", config.subheadline || defaultConfig.subheadline],
+            ["author_name", config.author_name || defaultConfig.author_name],
+            ["location", config.location || defaultConfig.location],
+            ["section_tag", config.section_tag || defaultConfig.section_tag]
+          ])
+        });
+      }
+    }
+
+    initializeApp();
+  </script>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9d53d1418240dab4',t:'MTc3MjMyMjU1NS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
