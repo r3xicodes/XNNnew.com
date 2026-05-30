@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>XNN | Xanarcica National Network</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Source+Serif+4:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+body{
+    background:#0a0a0f;
+    color:white;
+}
+
+.headline-font{
+    font-family:'Playfair Display',serif;
+}
+
+.body-font{
+    font-family:'Source Serif 4',serif;
+}
+
+.ui-font{
+    font-family:'Inter',sans-serif;
+}
+
+.card{
+    background:#111118;
+    border:1px solid #22222c;
+    transition:.2s;
+}
+
+.card:hover{
+    border-color:#c41e3a;
+    transform:translateY(-2px);
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="border-b border-red-800 bg-[#0f0f15] sticky top-0 z-50">
+
+<div class="max-w-7xl mx-auto px-6 py-4">
+
+<div class="flex items-center justify-between">
+
+<div class="flex items-center gap-4">
+
+<div class="w-14 h-14 bg-[#c41e3a] flex items-center justify-center font-bold text-xl">
+XNN
+</div>
+
+<div>
+<div class="tracking-[0.35em] text-sm font-semibold">
+XANARCICA
+</div>
+
+<div class="text-xs text-gray-400 tracking-[0.25em]">
+NATIONAL NETWORK
+</div>
+</div>
+
+</div>
+
+<nav class="hidden md:flex gap-6 text-sm font-medium">
+
+<a href="#" class="hover:text-red-500">Home</a>
+<a href="#" class="hover:text-red-500">Imperial Affairs</a>
+<a href="#" class="hover:text-red-500">Military</a>
+<a href="#" class="hover:text-red-500">Colonial</a>
+<a href="#" class="hover:text-red-500">Economy</a>
+<a href="#" class="hover:text-red-500">Diplomacy</a>
+
+</nav>
+
+</div>
+
+</div>
+
+</header>
+
+<!-- BREAKING BAR -->
+<section class="bg-[#c41e3a]">
+
+<div class="max-w-7xl mx-auto px-6 py-2 flex gap-4 items-center">
+
+<div class="font-bold text-sm tracking-widest">
+BREAKING
+</div>
+
+<div class="text-sm">
+Saint Empress Angel V. Xana appoints new colonial leadership for Poliskioa and Coronias.
+</div>
+
+</div>
+
+</section>
+
+<!-- MAIN -->
+<main class="max-w-7xl mx-auto px-6 py-8">
+
+<!-- FEATURED STORY -->
+
+<section class="mb-12">
+
+<div class="grid lg:grid-cols-2 gap-8">
+
+<img
+src="https://media.discordapp.net/attachments/1476610084934123622/1477779467975000085/Untitled_design_35.png"
+class="rounded-lg w-full h-full object-cover"
+>
+
+<div>
+
+<div class="inline-block px-3 py-1 border border-red-700 text-red-500 text-xs font-semibold tracking-widest mb-4">
+FEATURED STORY
+</div>
+
+<h1 class="headline-font text-5xl font-extrabold leading-tight mb-4">
+Colonial Leadership Appointed for Poliskioa and Coronias
+</h1>
+
+<p class="body-font text-xl text-gray-300 mb-6">
+Saint Empress Angel V. Xana formally establishes permanent colonial governance following stabilization operations.
+</p>
+
+<div class="text-sm text-gray-500 mb-6">
+March 1, 20260 • Imperial Affairs Desk
+</div>
+
+<a href="#"
+class="inline-block bg-[#c41e3a] px-6 py-3 font-semibold">
+Read Full Article
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- TOP STORIES -->
+
+<section class="mb-12">
+
+<div class="flex items-center justify-between mb-6">
+
+<h2 class="headline-font text-3xl">
+Top Stories
+</h2>
+
+</div>
+
+<div class="grid md:grid-cols-3 gap-6">
+
+<div class="card rounded-lg overflow-hidden">
+<img src="https://picsum.photos/600/350?1">
+<div class="p-5">
+<div class="text-xs text-red-500 font-semibold mb-2">MILITARY</div>
+<h3 class="headline-font text-xl mb-2">
+9th Southern Fleet Begins Deployment Cycle
+</h3>
+<p class="text-gray-400 text-sm">
+Fleet command announces readiness inspections.
+</p>
+</div>
+</div>
+
+<div class="card rounded-lg overflow-hidden">
+<img src="https://picsum.photos/600/350?2">
+<div class="p-5">
+<div class="text-xs text-red-500 font-semibold mb-2">COLONIAL</div>
+<h3 class="headline-font text-xl mb-2">
+Infrastructure Expansion Approved in Coronias
+</h3>
+<p class="text-gray-400 text-sm">
+Harbor modernization enters first phase.
+</p>
+</div>
+</div>
+
+<div class="card rounded-lg overflow-hidden">
+<img src="https://picsum.photos/600/350?3">
+<div class="p-5">
+<div class="text-xs text-red-500 font-semibold mb-2">DIPLOMACY</div>
+<h3 class="headline-font text-xl mb-2">
+Foreign Delegations Arrive in Seravell
+</h3>
+<p class="text-gray-400 text-sm">
+Talks expected to continue throughout the week.
+</p>
+</div>
+</div>
+
+</div>
+
+</section>
+
+<!-- ARTICLE LIST -->
+
+<section>
+
+<div class="grid lg:grid-cols-3 gap-8">
+
+<!-- LATEST NEWS -->
+
+<div class="lg:col-span-2">
+
+<h2 class="headline-font text-3xl mb-6">
+Latest Articles
+</h2>
+
+<div class="space-y-4">
+
+<div class="card p-5 rounded">
+<h3 class="headline-font text-2xl mb-2">
+Operation Twin Tides Enters Final Phase
+</h3>
+<div class="text-sm text-gray-500 mb-2">
+Military • 2 hours ago
+</div>
+<p class="text-gray-400">
+Joint naval and ground force operations continue.
+</p>
+</div>
+
+<div class="card p-5 rounded">
+<h3 class="headline-font text-2xl mb-2">
+Imperial Treasury Releases Economic Report
+</h3>
+<div class="text-sm text-gray-500 mb-2">
+Economy • 5 hours ago
+</div>
+<p class="text-gray-400">
+Growth remains steady across key sectors.
+</p>
+</div>
+
+<div class="card p-5 rounded">
+<h3 class="headline-font text-2xl mb-2">
+Maid Corps Conduct Security Exercise
+</h3>
+<div class="text-sm text-gray-500 mb-2">
+Security • 8 hours ago
+</div>
+<p class="text-gray-400">
+Readiness drills conducted at multiple facilities.
+</p>
+</div>
+
+<div class="card p-5 rounded">
+<h3 class="headline-font text-2xl mb-2">
+Royal Xana Navy Announces New Vessel Program
+</h3>
+<div class="text-sm text-gray-500 mb-2">
+Defense • 12 hours ago
+</div>
+<p class="text-gray-400">
+Construction plans unveiled by naval command.
+</p>
+</div>
+
+</div>
+
+</div>
+
+<!-- SIDEBAR -->
+
+<div>
+
+<h2 class="headline-font text-3xl mb-6">
+Most Read
+</h2>
+
+<div class="space-y-4">
+
+<div class="card p-4 rounded">
+<div class="text-red-500 text-sm font-bold">
+#1
+</div>
+<div class="font-semibold">
+Saint Empress Issues Colonial Decrees
+</div>
+</div>
+
+<div class="card p-4 rounded">
+<div class="text-red-500 text-sm font-bold">
+#2
+</div>
+<div class="font-semibold">
+9th Southern Fleet Activated
+</div>
+</div>
+
+<div class="card p-4 rounded">
+<div class="text-red-500 text-sm font-bold">
+#3
+</div>
+<div class="font-semibold">
+Coronias Security Reforms Announced
+</div>
+</div>
+
+<div class="card p-4 rounded">
+<div class="text-red-500 text-sm font-bold">
+#4
+</div>
+<div class="font-semibold">
+Imperial Budget Approved
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+<!-- FOOTER -->
+
+<footer class="border-t border-[#22222c] mt-12">
+
+<div class="max-w-7xl mx-auto px-6 py-8">
+
+<div class="text-center text-gray-500 text-sm">
+© 20260 Xanarcica National Network (XNN) • Official National Broadcaster of the Great Holy Xanarcica Empire
+</div>
+
+</div>
+
+</footer>
+
+</body>
+</html>
