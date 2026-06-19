@@ -1,9 +1,9 @@
-<!doctype html> 
+<!doctype html>
 <html lang="en" class="h-full">
  <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>XNN Imperial Broadcast</title>
+  <title>XNN News Article</title>
   <script src="https://cdn.tailwindcss.com/3.4.17"></script>
   <script src="/_sdk/element_sdk.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,217 +17,420 @@
   <style>body { box-sizing: border-box; }</style>
   <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
  </head>
-
  <body class="h-full">
-  <div id="app-wrapper" class="h-full w-full overflow-auto" style="background-color: #0a0a0f;">
-   <div class="min-h-full w-full" style="background-color: #0a0a0f;">
-
+  <div id="app-wrapper" class="h-full w-full overflow-auto" style="background-color: #0a0a0f;"><!-- Main Container -->
+   <div class="min-h-full w-full" style="background-color: #0a0a0f;"><!-- Header Bar -->
     <header class="border-b" style="border-color: #c41e3a; background-color: #0f0f15;">
      <div class="max-w-4xl mx-auto px-6 py-4">
-      <div class="flex items-center justify-between">
-
+      <div class="flex items-center justify-between"><!-- XNN Logo -->
        <div class="flex items-center gap-3">
-        <div class="w-12 h-12 flex items-center justify-center" style="background-color: #c41e3a;">
-         <span class="text-white font-bold text-xl ui-font tracking-tight">XNN</span>
+        <div class="w-12 h-12 flex items-center justify-center" style="background-color: #c41e3a;"><span class="text-white font-bold text-xl ui-font tracking-tight">XNN</span>
         </div>
         <div>
-         <div class="text-white ui-font font-semibold text-sm tracking-widest">XANARCICA</div>
-         <div class="ui-font text-xs tracking-wider" style="color: #8a8a9a;">NATIONAL NETWORK</div>
+         <div class="text-white ui-font font-semibold text-sm tracking-widest">
+          XANARCICA
+         </div>
+         <div class="ui-font text-xs tracking-wider" style="color: #8a8a9a;">
+          NATIONAL NETWORK
+         </div>
         </div>
-       </div>
-
+       </div><!-- Section Tag -->
        <div class="px-3 py-1 text-xs ui-font font-semibold tracking-wider" style="background-color: #c41e3a; color: white;">
         BREAKING NEWS
        </div>
-
       </div>
      </div>
-    </header>
-
-    <main class="max-w-4xl mx-auto px-6 py-10">
+    </header><!-- Article Content -->
+    <main class="max-w-4xl mx-auto px-6 py-10"><!-- Article Header -->
      <article>
+<!-- Category & Date -->
+<div class="flex items-center gap-4 mb-6">
+    <span id="section-tag"
+          class="px-2 py-1 text-xs ui-font font-semibold tracking-wider"
+          style="background-color: #1a1a25; color: #c41e3a; border: 1px solid #c41e3a;">
+        MILITARY OPERATIONS
+    </span>
 
-      <!-- TOP META -->
-      <div class="flex items-center gap-4 mb-6">
-       <span id="section-tag" class="px-2 py-1 text-xs ui-font font-semibold tracking-wider"
-        style="background-color: #1a1a25; color: #c41e3a; border: 1px solid #c41e3a;">
-        IMPERIAL SECURITY
-       </span>
-       <span class="ui-font text-sm" style="color: #6a6a7a;">
-        2026 • LIVE COVERAGE
-       </span>
-      </div>
+    <span class="ui-font text-sm" style="color: #6a6a7a;">
+        June 18, 2026 • 16:00 UTC
+    </span>
+</div>
+<!-- Headline -->
+<h1 id="headline"
+    class="headline-font text-4xl md:text-5xl font-extrabold leading-tight mb-4"
+    style="color: #ffffff;">
+    OPERATION GOLDEN STORM LAUNCHED
+</h1>
+<!-- Subheadline -->
+<p id="subheadline"
+   class="body-font text-xl md:text-2xl leading-relaxed mb-8"
+   style="color: #b0b0c0;">
+    Greater Xana Forces Begin Intervention and Maritime Blockade of Geran Following Emergency Address by Flora Empress Arc X. Xana
+</p>
+<!-- Featured Image -->
+<div class="my-8">
+    <img src="https://rawcdn.githack.com/r3xicodes/XNNnew.com/be6734bff19a7ee9f19b6402d1265866afd37569/SWORDPICTURETWO.svg"
+         alt="GHXE Destroyer off the coast of Geran and near the Prokrez Canal"
+         class="w-full object-cover rounded">
 
-      <h1 id="headline" class="headline-font text-4xl md:text-5xl font-extrabold leading-tight mb-4"
-       style="color: #ffffff;">
-       Operation Golden Storm Commences Across Geran Theater
-      </h1>
+    <p class="text-xs ui-font text-gray-400 mt-2">
+        GHXE Destroyer off the coast of Geran and near the Prokrez Canal
+    </p>
+</div>
+<!-- Author -->
+<div class="flex items-center gap-4 pb-8 mb-8 border-b"
+     style="border-color: #2a2a35;">
 
-      <p id="subheadline" class="body-font text-xl md:text-2xl leading-relaxed mb-8"
-       style="color: #b0b0c0;">
-       Blockade enforcement, special warfare deployments, and coordinated strike operations confirmed across maritime and land domains.
-      </p>
+    <div class="w-10 h-10 rounded-full flex items-center justify-center ui-font font-semibold"
+         style="background-color: #1a1a25; color: #c41e3a;">
+        VC
+    </div>
 
-      <!-- HERO IMAGE (existing, enhanced caption) -->
-      <div class="w-full h-64 md:h-80 rounded-lg overflow-hidden border mb-10"
-           style="border-color:#2a2a35; background:linear-gradient(135deg,#1a1a25,#0f0f18);">
-        <div class="w-full h-full flex items-center justify-center text-center p-6">
-          <div>
-            <div class="text-white headline-font text-2xl md:text-3xl font-bold">
-              [ HERO IMAGE: Golden Storm Naval Task Force ]
-            </div>
-            <div class="text-xs ui-font mt-2" style="color:#8a8a9a;">
-              XNN ARCHIVAL • 43rd Missile Bombardment Strike Group in operational waters of the Golden Sea
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- ARTICLE BODY -->
-      <div class="body-font text-lg leading-relaxed space-y-6" style="color: #d0d0e0;">
-
-       <p>
-        <span class="ui-font font-semibold" style="color: #ffffff;">CROWN CITY —</span>
-        The Great Holy Xanarcica Empire has confirmed that its naval formations, originally deployed under a joint
-        operational exercise framework in coordination with Crossian forces, have now transitioned into active
-        intervention status under Operation Golden Storm.
-       </p>
-
-       <!-- SIDE IMAGE 1 -->
-       <div class="md:flex gap-6 items-start my-10">
-        <div class="md:w-1/2">
-         <div class="w-full h-56 rounded-lg border flex items-center justify-center text-center p-4"
-              style="border-color:#2a2a35; background:#0f0f18;">
-          <div>
-           <div class="headline-font text-xl font-bold text-white">
-            [ IMAGE: KNOKING ZONE BLOCKADE ]
-           </div>
-           <div class="text-xs ui-font mt-2" style="color:#8a8a9a;">
-            Maritime exclusion perimeter activated across North & South Geran approaches
-           </div>
-          </div>
-         </div>
+    <div>
+        <div id="author-name"
+             class="ui-font font-semibold text-sm"
+             style="color: #ffffff;">
+            Victoria A. Crownwell
         </div>
 
-        <div class="md:w-1/2 mt-6 md:mt-0">
-         <p>
-          Imperial naval forces have established a controlled maritime exclusion zone surrounding Geran waters,
-          enforcing interdiction protocols against military and strategic supply vessels.
-         </p>
+        <div class="ui-font text-xs"
+             style="color: #6a6a7a;">
+            Senior Defense Correspondent
         </div>
-       </div>
+    </div>
+</div><!-- Article Body -->
+    <div class="body-font text-lg leading-relaxed space-y-6" style="color: #d0d0e0;">
 
-       <p>
-        The decision follows a major escalation by Geran approximately fifteen hours prior, including expanded executions,
-        mining of the Golden Sea, and declared intent to target neutral shipping.
-       </p>
+<p><span id="dateline" class="ui-font font-semibold" style="color: #ffffff;">Seravell, GHXE —</span> The Great Holy Xanarcica Empire has officially commenced Operation Golden Storm, a large-scale military intervention against North and South Geran following what Imperial officials described as "an unacceptable escalation of regional threats and humanitarian abuses."</p>
 
-       <h2 class="headline-font text-2xl font-bold mt-8 mb-4" style="color:#ffffff;">
-        Empress Authorization of Operation Golden Storm
-       </h2>
+<p>The operation was formally announced tonight by Flora Empress Arc X. Xana during a nationally televised address to the Xana Realms.</p>
 
-       <!-- SIDE IMAGE 2 -->
-       <div class="md:flex gap-6 items-start my-10">
+<p>The decision follows a declaration from Geranian authorities approximately fifteen hours earlier announcing the expansion of executions, the extensive mining of waters throughout the Golden Sea, and threats against neutral maritime traffic operating in the region.</p>
+<div class="float-left mr-6 mb-4 w-80">
+    <img src="https://rawcdn.githack.com/r3xicodes/XNNnew.com/be6734bff19a7ee9f19b6402d1265866afd37569/SWORDPICTUREONE.svg"
+         alt="SWORD"
+         class="w-full rounded">
 
-        <div class="md:w-1/2 order-2 md:order-1">
-         <p>
-          Flora Empress Arc X. Xana authorized the commencement of Operation Golden Storm following the emergency address
-          delivered to the Xana Realms.
-         </p>
-        </div>
+    <p class="text-xs ui-font text-gray-400 mt-2">
+        Elements of the S.W.O.R.D deploy arising from Geran territorial waters.
+    </p>
+</div>
+<h2 class="headline-font text-2xl font-bold mt-8 mb-4" style="color: #ffffff;">Imperial Address to the Nation</h2>
 
-        <div class="md:w-1/2 order-1 md:order-2">
-         <div class="w-full h-56 rounded-lg border flex items-center justify-center text-center p-4"
-              style="border-color:#2a2a35; background:#0f0f18;">
-          <div>
-           <div class="headline-font text-xl font-bold text-white">
-            [ IMAGE: IMPERIAL WAR ADDRESS ]
-           </div>
-           <div class="text-xs ui-font mt-2" style="color:#8a8a9a;">
-            Flora Empress Arc X. Xana broadcasting from Imperial Palace war chamber
-           </div>
-          </div>
-         </div>
-        </div>
+<p>During her address, the Empress stated:</p>
 
-       </div>
+<blockquote class="my-8 pl-6 py-4" style="border-left: 4px solid #c41e3a; background-color: #0f0f18;">
+    <p class="headline-font text-xl italic" style="color: #ffffff;">
+        "Just fifteen hours ago, the rulers of Geran announced the expansion of mass executions, the mining of the Golden Sea, and the targeting of neutral vessels."
+    </p>
+</blockquote>
 
-       <blockquote class="my-8 pl-6 py-4"
-        style="border-left:4px solid #c41e3a; background-color:#0f0f18;">
+<blockquote class="my-8 pl-6 py-4" style="border-left: 4px solid #c41e3a; background-color: #0f0f18;">
+    <p class="headline-font text-xl italic" style="color: #ffffff;">
+        "For months, the rulers of Geran have pursued a campaign of fear against their own people. Reports of executions, disappearances, and persecution have shocked the conscience of nations across the globe."
+    </p>
+</blockquote>
 
-        <p class="italic text-white headline-font text-lg">
-         "Just fifteen hours ago, the rulers of Geran announced the expansion of mass executions, the mining of the Golden Sea, and the targeting of neutral vessels."
+<blockquote class="my-8 pl-6 py-4" style="border-left: 4px solid #c41e3a; background-color: #0f0f18;">
+    <p class="headline-font text-xl italic" style="color: #ffffff;">
+        "Diplomatic protests were ignored. International warnings were dismissed. The threats against civilian shipping and neutral vessels continued."
+    </p>
+</blockquote>
+
+<blockquote class="my-8 pl-6 py-4" style="border-left: 4px solid #c41e3a; background-color: #0f0f18;">
+    <p class="headline-font text-xl italic" style="color: #ffffff;">
+        "Tonight, words have given way to action."
+    </p>
+</blockquote>
+
+<blockquote class="my-8 pl-6 py-4" style="border-left: 4px solid #c41e3a; background-color: #0f0f18;">
+    <p class="headline-font text-xl italic" style="color: #ffffff;">
+        "Tonight, the battle has been joined."
+    </p>
+    <cite class="block mt-3 ui-font text-sm not-italic" style="color: #8a8a9a;">
+        — Flora Empress Arc X. Xana
+    </cite>
+</blockquote>
+
+<p>The speech concluded with authorization for Imperial military operations throughout the theater.</p>
+<div class="my-8">
+    <img src="https://rawcdn.githack.com/r3xicodes/XNNnew.com/be6734bff19a7ee9f19b6402d1265866afd37569/commandos.svg"
+         alt="Involved Divisions"
+         class="w-full object-cover rounded">
+
+    <p class="text-xs ui-font text-gray-400 mt-2">
+        The involved Greater Xana Forces involved that were deployed.
+    </p>
+</div>
+<h2 class="headline-font text-2xl font-bold mt-8 mb-4" style="color: #ffffff;">Trade Blockade Established</h2>
+
+<p>Within minutes of the address, the Imperial Ministry of Defense confirmed the establishment of a maritime exclusion and inspection regime surrounding both North and South Geran.</p>
+
+<p>Imperial officials have designated operational waters surrounding Geran as the "Knocking Zone," an active military operating area where GHXE naval forces will conduct interdiction, inspection, and enforcement operations against vessels suspected of supporting Geranian military logistics.</p>
+
+<p>The Xana National Navy has begun intercepting commercial traffic destined for Geranian ports, with military authorities stating that cargoes containing military equipment, strategic resources, or materials deemed supportive of Geranian military operations may be seized.</p>
+
+<p>Naval commanders stated that the objective is to isolate Geranian military capabilities and restrict the movement of weapons, fuel, and strategic supplies.</p>
+
+<h2 class="headline-font text-2xl font-bold mt-8 mb-4" style="color: #ffffff;">Naval Forces Transition from Exercise to Combat Operations</h2>
+
+<p>Officials confirmed that portions of the forces involved were originally participating in a planned joint naval exercise alongside Crossian naval elements operating within the region.</p>
+
+<p>Units from both the Coronias Colonial Naval Command and the Western Sea Naval Command were already deployed when the decision to commence Operation Golden Storm was issued.</p>
+
+<p>Among the most powerful assets involved is the 43rd Missile Bombardment Strike Group, consisting of three Cetas Don Mor-class missile bombardment vessels:</p>
+
+<ul class="list-disc ml-8 space-y-2">
+    <li>XMS Imperium</li>
+    <li>XMS Crownfire</li>
+    <li>XMS Admirakz</li>
+</ul>
+<div class="float-right ml-6 mb-4 w-72 border rounded overflow-hidden"
+     style="border-color:#2a2a35;background-color:#0f0f18;">
+
+    <a href="https://r3xicodes.github.io/mil.gxe/">
+        <img src="https://rawcdn.githack.com/r3xicodes/XNNnew.com/be6734bff19a7ee9f19b6402d1265866afd37569/Advert.svg"
+             alt="Advertisement"
+             class="w-full object-cover">
+    </a>
+
+    <div class="p-3">
+        <p class="ui-font text-xs font-semibold"
+           style="color:#c41e3a;">
+            NATIONAL SERVICE ANNOUNCEMENT
         </p>
 
-        <p class="italic text-white headline-font text-lg mt-4">
-         "For months, the rulers of Geran have pursued a campaign of fear against their own people. Reports of executions, disappearances, and persecution have shocked the conscience of nations across the globe."
+        <p class="ui-font text-xs mt-1"
+           style="color:#b0b0c0;">
+            Support the men and women serving overseas during Operation Golden Storm.
         </p>
+    </div>
+</div>
+<p>The strike group is capable of delivering long-range precision missile attacks against strategic targets throughout the operational theater.</p>
 
-        <p class="italic text-white headline-font text-lg mt-4">
-         "Diplomatic protests were ignored. International warnings were dismissed. The threats against civilian shipping and neutral vessels continued."
-        </p>
+<p>Military analysts note that two of the vessels had originally deployed as part of the planned naval exercise before receiving orders transitioning them to active combat status.</p>
 
-        <p class="italic text-white headline-font text-lg mt-4">
-         "Tonight, words have given way to action."
-        </p>
+<h2 class="headline-font text-2xl font-bold mt-8 mb-4" style="color: #ffffff;">Special Warfare Command Activated</h2>
 
-        <p class="italic text-white headline-font text-lg mt-4">
-         "Tonight, the battle has been joined."
-        </p>
+<p>The Imperial Special Warfare Command has confirmed the activation of multiple unconventional warfare units.</p>
 
-        <cite class="block mt-5 text-sm ui-font" style="color:#8a8a9a;">
-         — Flora Empress Arc X. Xana, 2026
-        </cite>
+<p>Among those deployed is the elite S.W.O.R.D. (Special Warfare Operations Response Division).</p>
 
-       </blockquote>
+<p>S.W.O.R.D. is regarded as one of the Empire's most secretive formations and is typically reserved for the most dangerous and sensitive operations conducted by the Crown.</p>
 
-       <!-- SIDE IMAGE 3 -->
-       <div class="md:flex gap-6 items-start my-10">
+<div class="my-8 p-6 rounded" style="background-color: #0f0f18; border: 1px solid #2a2a35;">
+    <h3 class="ui-font font-semibold text-sm tracking-wider mb-4" style="color: #c41e3a;">S.W.O.R.D. SPECIALTIES</h3>
+    <ul class="space-y-2 ui-font text-sm" style="color: #b0b0c0;">
+        <li>▸ Deep Reconnaissance</li>
+        <li>▸ Strategic Raids</li>
+        <li>▸ Target Designation</li>
+        <li>▸ Intelligence Gathering</li>
+        <li>▸ High-Risk Special Operations</li>
+    </ul>
+</div>
 
-        <div class="md:w-1/2">
-         <div class="w-full h-56 rounded-lg border flex items-center justify-center text-center p-4"
-              style="border-color:#2a2a35; background:#0f0f18;">
-          <div>
-           <div class="headline-font text-xl font-bold text-white">
-            [ IMAGE: S.W.O.R.D INSERTION TEAM ]
-           </div>
-           <div class="text-xs ui-font mt-2" style="color:#8a8a9a;">
-            Special Warfare Operations Response Division deep insertion elements
-           </div>
-          </div>
-         </div>
+<p>Military officials declined to discuss the unit's operational objectives.</p>
+
+<p>Also activated is the 2nd Special Warfare Assault Group, an unconventional warfare formation renowned for its expertise in irregular combat, infiltration operations, and long-duration independent missions.</p>
+
+<h2 class="headline-font text-2xl font-bold mt-8 mb-4" style="color: #ffffff;">Airborne Deployments Reported</h2>
+
+<p>The Aaril Forve Royul Xana (Royal Xana Aerial Forces) operating under Aurvenian jurisdiction have begun supporting operations throughout the theater.</p>
+
+<p>Defense officials confirmed the deployment of:</p>
+
+<ul class="list-disc ml-8 space-y-2">
+    <li>CA-130OJ Special Operations Aircraft</li>
+    <li>HU-90 Utility Helicopters</li>
+    <li>LF-13 Fighter Aircraft</li>
+</ul>
+
+<p>LF-13 patrols have already commenced over the Prokrez Canal and surrounding airspace.</p>
+
+<p>Meanwhile, elements of the 2nd Special Warfare Assault Group have reportedly conducted airborne insertions into Geranian territory utilizing both fixed-wing and rotary-wing aircraft.</p>
+
+<p>Although numerous reports have circulated regarding the precise locations of these forces, military authorities have declined to comment, citing operational security concerns.</p>
+
+<p>Some unofficial reports suggest personnel have established concealed observation positions within heavily vegetated regions of Geran, though these claims remain unverified.</p>
+
+<h2 class="headline-font text-2xl font-bold mt-8 mb-4" style="color: #ffffff;">Imperial Command Issues Execution Order</h2>
+
+<p>According to defense sources, the final operational order was transmitted shortly after the Empress concluded her address.</p>
+
+<p>Military command networks reportedly received a simple message:</p>
+
+<blockquote class="my-8 pl-6 py-4" style="border-left: 4px solid #c41e3a; background-color: #0f0f18;">
+    <p class="headline-font text-2xl italic" style="color: #ffffff;">
+        "Execute Operation Golden Storm."
+    </p>
+</blockquote>
+
+<p>Across airfields, naval bases, and command centers throughout the Empire, forces immediately transitioned from readiness conditions to active operations.</p>
+
+<p>As night falls over the Golden Sea, Imperial warships, aircraft, and special warfare personnel now find themselves engaged in what may become one of the largest military campaigns in modern GHXE history.</p>
+
+<p><strong style="color:#ffffff;">For the Empire, the period of warnings has ended.</strong></p>
+
+<p><strong style="color:#ffffff;">Operation Golden Storm has begun.</strong></p>
+
+</div><!-- Article Footer -->
+      <footer class="mt-10 pt-8 border-t" style="border-color: #2a2a35;">
+       <div class="flex flex-wrap items-center justify-between gap-4">
+        <div class="flex items-center gap-2"><span class="ui-font text-xs font-semibold" style="color: #6a6a7a;">TAGS:</span> <span class="px-2 py-1 text-xs ui-font" style="background-color: #1a1a25; color: #8a8a9a;">Military Operations</span> <span class="px-2 py-1 text-xs ui-font" style="background-color: #1a1a25; color: #8a8a9a;">Geran Crisis</span> <span class="px-2 py-1 text-xs ui-font" style="background-color: #1a1a25; color: #8a8a9a;">Special Warfare</span></div>
         </div>
-
-        <div class="md:w-1/2 mt-6 md:mt-0">
-         <p>
-          S.W.O.R.D. and the 2nd Special Warfare Assault Group are confirmed active across multiple operational zones.
-         </p>
-        </div>
-
-       </div>
-
-       <p>
-        All participating Imperial forces are now operating under active combat conditions across maritime and land theaters.
-       </p>
-
-      </div>
-
-      <!-- FOOTER -->
-      <footer class="mt-10 pt-8 border-t" style="border-color:#2a2a35;">
-       <div class="flex justify-between items-center">
-        <div class="text-xs ui-font" style="color:#6a6a7a;">
-         TAGS: Military • Intervention • Golden Storm • Naval Blockade
-        </div>
-        <div class="text-xs ui-font" style="color:#6a6a7a;">
-         © 2026 Xanarcica National Network
+        <div class="ui-font text-xs" style="color: #6a6a7a;">
+         © 20260 Xanarcica National Network. All rights reserved.
         </div>
        </div>
       </footer>
-
      </article>
     </main>
-
    </div>
   </div>
- </body>
+  <script>
+    const defaultConfig = {
+  headline: "OPERATION GOLDEN STORM LAUNCHED",
+  subheadline: "Imperial Forces Begin Intervention and Maritime Blockade of Geran Following Emergency Address by Flora Empress Arc X. Xana",
+  author_name: "Victoria A. Crownwell",
+  location: "CROWN CITY, GHXE",
+  section_tag: "MILITARY OPERATIONS",
+  background_color: "#0a0a0f",
+  surface_color: "#0f0f18",
+  text_color: "#d0d0e0",
+  accent_color: "#c41e3a",
+  secondary_color: "#1a1a25",
+  font_family: "Source Serif 4",
+  font_size: 18
+};
+
+async function initializeApp() {
+  if (window.elementSdk) {
+    await window.elementSdk.init({
+      defaultConfig,
+      onConfigChange: async (config) => {
+        // Update headline
+        const headlineEl = document.getElementById('headline');
+        if (headlineEl) {
+          headlineEl.textContent = config.headline || defaultConfig.headline;
+        }
+
+        // Update subheadline
+        const subheadlineEl = document.getElementById('subheadline');
+        if (subheadlineEl) {
+          subheadlineEl.textContent = config.subheadline || defaultConfig.subheadline;
+        }
+
+        // Update author name
+        const authorEl = document.getElementById('author-name');
+        if (authorEl) {
+          authorEl.textContent = config.author_name || defaultConfig.author_name;
+        }
+
+        // Update dateline location
+        const datelineEl = document.getElementById('dateline');
+        if (datelineEl) {
+          datelineEl.textContent = (config.location || defaultConfig.location) + " —";
+        }
+
+        // Update section tag
+        const sectionEl = document.getElementById('section-tag');
+        if (sectionEl) {
+          sectionEl.textContent = config.section_tag || defaultConfig.section_tag;
+        }
+
+        // Update colors
+        const bgColor = config.background_color || defaultConfig.background_color;
+        const surfaceColor = config.surface_color || defaultConfig.surface_color;
+        const textColor = config.text_color || defaultConfig.text_color;
+        const accentColor = config.accent_color || defaultConfig.accent_color;
+        const secondaryColor = config.secondary_color || defaultConfig.secondary_color;
+
+        document.getElementById('app-wrapper').style.backgroundColor = bgColor;
+        document.querySelector('.min-h-full').style.backgroundColor = bgColor;
+
+        // Update font
+        const fontFamily = config.font_family || defaultConfig.font_family;
+        const fontSize = config.font_size || defaultConfig.font_size;
+
+        document.querySelectorAll('.body-font').forEach(el => {
+          el.style.fontFamily = `${fontFamily}, Georgia, serif`;
+
+          if (el.classList.contains('text-lg')) {
+            el.style.fontSize = `${fontSize}px`;
+          }
+        });
+      },
+
+      mapToCapabilities: (config) => ({
+        recolorables: [
+          {
+            get: () => config.background_color || defaultConfig.background_color,
+            set: (value) => {
+              config.background_color = value;
+              window.elementSdk.setConfig({ background_color: value });
+            }
+          },
+          {
+            get: () => config.surface_color || defaultConfig.surface_color,
+            set: (value) => {
+              config.surface_color = value;
+              window.elementSdk.setConfig({ surface_color: value });
+            }
+          },
+          {
+            get: () => config.text_color || defaultConfig.text_color,
+            set: (value) => {
+              config.text_color = value;
+              window.elementSdk.setConfig({ text_color: value });
+            }
+          },
+          {
+            get: () => config.accent_color || defaultConfig.accent_color,
+            set: (value) => {
+              config.accent_color = value;
+              window.elementSdk.setConfig({ accent_color: value });
+            }
+          },
+          {
+            get: () => config.secondary_color || defaultConfig.secondary_color,
+            set: (value) => {
+              config.secondary_color = value;
+              window.elementSdk.setConfig({ secondary_color: value });
+            }
+          }
+        ],
+
+        borderables: [],
+
+        fontEditable: {
+          get: () => config.font_family || defaultConfig.font_family,
+          set: (value) => {
+            config.font_family = value;
+            window.elementSdk.setConfig({ font_family: value });
+          }
+        },
+
+        fontSizeable: {
+          get: () => config.font_size || defaultConfig.font_size,
+          set: (value) => {
+            config.font_size = value;
+            window.elementSdk.setConfig({ font_size: value });
+          }
+        }
+      }),
+
+      mapToEditPanelValues: (config) => new Map([
+        ["headline", config.headline || defaultConfig.headline],
+        ["subheadline", config.subheadline || defaultConfig.subheadline],
+        ["author_name", config.author_name || defaultConfig.author_name],
+        ["location", config.location || defaultConfig.location],
+        ["section_tag", config.section_tag || defaultConfig.section_tag]
+      ])
+    });
+  }
+}
+
+initializeApp();
+  </script>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9d487169a4600ca6',t:'MTc3MjIwMzI4Ni4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
