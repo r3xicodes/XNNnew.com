@@ -1,4 +1,4 @@
-<!doctype html>
+<!doctype html> 
 <html lang="en" class="h-full">
  <head>
   <meta charset="UTF-8">
@@ -8,197 +8,226 @@
   <script src="/_sdk/element_sdk.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&amp;family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet">
   <style>
     .headline-font { font-family: 'Playfair Display', Georgia, serif; }
     .body-font { font-family: 'Source Serif 4', Georgia, serif; }
     .ui-font { font-family: 'Inter', system-ui, sans-serif; }
   </style>
+  <style>body { box-sizing: border-box; }</style>
+  <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
  </head>
 
  <body class="h-full">
-  <div class="h-full w-full overflow-auto" style="background-color:#0a0a0f;">
+  <div id="app-wrapper" class="h-full w-full overflow-auto" style="background-color: #0a0a0f;">
+   <div class="min-h-full w-full" style="background-color: #0a0a0f;">
 
-   <!-- HEADER -->
-   <header class="border-b" style="border-color:#c41e3a; background-color:#0f0f15;">
-    <div class="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
+    <header class="border-b" style="border-color: #c41e3a; background-color: #0f0f15;">
+     <div class="max-w-4xl mx-auto px-6 py-4">
+      <div class="flex items-center justify-between">
 
-     <div class="flex items-center gap-3">
-      <div class="w-12 h-12 flex items-center justify-center" style="background-color:#c41e3a;">
-       <span class="text-white font-bold text-xl ui-font">XNN</span>
-      </div>
-      <div>
-       <div class="text-white ui-font font-semibold text-sm tracking-widest">XANARCICA</div>
-       <div class="text-xs ui-font tracking-wider" style="color:#8a8a9a;">NATIONAL NETWORK</div>
-      </div>
-     </div>
-
-     <div class="px-3 py-1 text-xs ui-font font-semibold tracking-wider"
-          style="background-color:#c41e3a; color:white;">
-      BREAKING NEWS
-     </div>
-
-    </div>
-   </header>
-
-   <!-- HERO IMAGE -->
-   <div class="max-w-4xl mx-auto px-6 mt-6">
-    <div class="w-full h-64 md:h-80 rounded-lg overflow-hidden border"
-         style="border-color:#2a2a35; background:linear-gradient(135deg,#1a1a25,#0f0f18);">
-      <div class="w-full h-full flex items-center justify-center text-center p-6">
+       <div class="flex items-center gap-3">
+        <div class="w-12 h-12 flex items-center justify-center" style="background-color: #c41e3a;">
+         <span class="text-white font-bold text-xl ui-font tracking-tight">XNN</span>
+        </div>
         <div>
-          <div class="text-white headline-font text-2xl md:text-3xl font-bold">
-            [ HERO IMAGE: Golden Storm Naval Task Force ]
-          </div>
-          <div class="text-xs ui-font mt-2" style="color:#8a8a9a;">
-            XNN ARCHIVAL / STRIKE GROUP VISUALIZATION
+         <div class="text-white ui-font font-semibold text-sm tracking-widest">XANARCICA</div>
+         <div class="ui-font text-xs tracking-wider" style="color: #8a8a9a;">NATIONAL NETWORK</div>
+        </div>
+       </div>
+
+       <div class="px-3 py-1 text-xs ui-font font-semibold tracking-wider" style="background-color: #c41e3a; color: white;">
+        BREAKING NEWS
+       </div>
+
+      </div>
+     </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-6 py-10">
+     <article>
+
+      <!-- TOP META -->
+      <div class="flex items-center gap-4 mb-6">
+       <span id="section-tag" class="px-2 py-1 text-xs ui-font font-semibold tracking-wider"
+        style="background-color: #1a1a25; color: #c41e3a; border: 1px solid #c41e3a;">
+        IMPERIAL SECURITY
+       </span>
+       <span class="ui-font text-sm" style="color: #6a6a7a;">
+        2026 • LIVE COVERAGE
+       </span>
+      </div>
+
+      <h1 id="headline" class="headline-font text-4xl md:text-5xl font-extrabold leading-tight mb-4"
+       style="color: #ffffff;">
+       Operation Golden Storm Commences Across Geran Theater
+      </h1>
+
+      <p id="subheadline" class="body-font text-xl md:text-2xl leading-relaxed mb-8"
+       style="color: #b0b0c0;">
+       Blockade enforcement, special warfare deployments, and coordinated strike operations confirmed across maritime and land domains.
+      </p>
+
+      <!-- HERO IMAGE (existing, enhanced caption) -->
+      <div class="w-full h-64 md:h-80 rounded-lg overflow-hidden border mb-10"
+           style="border-color:#2a2a35; background:linear-gradient(135deg,#1a1a25,#0f0f18);">
+        <div class="w-full h-full flex items-center justify-center text-center p-6">
+          <div>
+            <div class="text-white headline-font text-2xl md:text-3xl font-bold">
+              [ HERO IMAGE: Golden Storm Naval Task Force ]
+            </div>
+            <div class="text-xs ui-font mt-2" style="color:#8a8a9a;">
+              XNN ARCHIVAL • 43rd Missile Bombardment Strike Group in operational waters of the Golden Sea
+            </div>
           </div>
         </div>
       </div>
-    </div>
+
+      <!-- ARTICLE BODY -->
+      <div class="body-font text-lg leading-relaxed space-y-6" style="color: #d0d0e0;">
+
+       <p>
+        <span class="ui-font font-semibold" style="color: #ffffff;">CROWN CITY —</span>
+        The Great Holy Xanarcica Empire has confirmed that its naval formations, originally deployed under a joint
+        operational exercise framework in coordination with Crossian forces, have now transitioned into active
+        intervention status under Operation Golden Storm.
+       </p>
+
+       <!-- SIDE IMAGE 1 -->
+       <div class="md:flex gap-6 items-start my-10">
+        <div class="md:w-1/2">
+         <div class="w-full h-56 rounded-lg border flex items-center justify-center text-center p-4"
+              style="border-color:#2a2a35; background:#0f0f18;">
+          <div>
+           <div class="headline-font text-xl font-bold text-white">
+            [ IMAGE: KNOKING ZONE BLOCKADE ]
+           </div>
+           <div class="text-xs ui-font mt-2" style="color:#8a8a9a;">
+            Maritime exclusion perimeter activated across North & South Geran approaches
+           </div>
+          </div>
+         </div>
+        </div>
+
+        <div class="md:w-1/2 mt-6 md:mt-0">
+         <p>
+          Imperial naval forces have established a controlled maritime exclusion zone surrounding Geran waters,
+          enforcing interdiction protocols against military and strategic supply vessels.
+         </p>
+        </div>
+       </div>
+
+       <p>
+        The decision follows a major escalation by Geran approximately fifteen hours prior, including expanded executions,
+        mining of the Golden Sea, and declared intent to target neutral shipping.
+       </p>
+
+       <h2 class="headline-font text-2xl font-bold mt-8 mb-4" style="color:#ffffff;">
+        Empress Authorization of Operation Golden Storm
+       </h2>
+
+       <!-- SIDE IMAGE 2 -->
+       <div class="md:flex gap-6 items-start my-10">
+
+        <div class="md:w-1/2 order-2 md:order-1">
+         <p>
+          Flora Empress Arc X. Xana authorized the commencement of Operation Golden Storm following the emergency address
+          delivered to the Xana Realms.
+         </p>
+        </div>
+
+        <div class="md:w-1/2 order-1 md:order-2">
+         <div class="w-full h-56 rounded-lg border flex items-center justify-center text-center p-4"
+              style="border-color:#2a2a35; background:#0f0f18;">
+          <div>
+           <div class="headline-font text-xl font-bold text-white">
+            [ IMAGE: IMPERIAL WAR ADDRESS ]
+           </div>
+           <div class="text-xs ui-font mt-2" style="color:#8a8a9a;">
+            Flora Empress Arc X. Xana broadcasting from Imperial Palace war chamber
+           </div>
+          </div>
+         </div>
+        </div>
+
+       </div>
+
+       <blockquote class="my-8 pl-6 py-4"
+        style="border-left:4px solid #c41e3a; background-color:#0f0f18;">
+
+        <p class="italic text-white headline-font text-lg">
+         "Just fifteen hours ago, the rulers of Geran announced the expansion of mass executions, the mining of the Golden Sea, and the targeting of neutral vessels."
+        </p>
+
+        <p class="italic text-white headline-font text-lg mt-4">
+         "For months, the rulers of Geran have pursued a campaign of fear against their own people. Reports of executions, disappearances, and persecution have shocked the conscience of nations across the globe."
+        </p>
+
+        <p class="italic text-white headline-font text-lg mt-4">
+         "Diplomatic protests were ignored. International warnings were dismissed. The threats against civilian shipping and neutral vessels continued."
+        </p>
+
+        <p class="italic text-white headline-font text-lg mt-4">
+         "Tonight, words have given way to action."
+        </p>
+
+        <p class="italic text-white headline-font text-lg mt-4">
+         "Tonight, the battle has been joined."
+        </p>
+
+        <cite class="block mt-5 text-sm ui-font" style="color:#8a8a9a;">
+         — Flora Empress Arc X. Xana, 2026
+        </cite>
+
+       </blockquote>
+
+       <!-- SIDE IMAGE 3 -->
+       <div class="md:flex gap-6 items-start my-10">
+
+        <div class="md:w-1/2">
+         <div class="w-full h-56 rounded-lg border flex items-center justify-center text-center p-4"
+              style="border-color:#2a2a35; background:#0f0f18;">
+          <div>
+           <div class="headline-font text-xl font-bold text-white">
+            [ IMAGE: S.W.O.R.D INSERTION TEAM ]
+           </div>
+           <div class="text-xs ui-font mt-2" style="color:#8a8a9a;">
+            Special Warfare Operations Response Division deep insertion elements
+           </div>
+          </div>
+         </div>
+        </div>
+
+        <div class="md:w-1/2 mt-6 md:mt-0">
+         <p>
+          S.W.O.R.D. and the 2nd Special Warfare Assault Group are confirmed active across multiple operational zones.
+         </p>
+        </div>
+
+       </div>
+
+       <p>
+        All participating Imperial forces are now operating under active combat conditions across maritime and land theaters.
+       </p>
+
+      </div>
+
+      <!-- FOOTER -->
+      <footer class="mt-10 pt-8 border-t" style="border-color:#2a2a35;">
+       <div class="flex justify-between items-center">
+        <div class="text-xs ui-font" style="color:#6a6a7a;">
+         TAGS: Military • Intervention • Golden Storm • Naval Blockade
+        </div>
+        <div class="text-xs ui-font" style="color:#6a6a7a;">
+         © 2026 Xanarcica National Network
+        </div>
+       </div>
+      </footer>
+
+     </article>
+    </main>
+
    </div>
-
-   <!-- MAIN -->
-   <main class="max-w-4xl mx-auto px-6 py-10">
-    <article>
-
-     <div class="flex items-center gap-4 mb-6">
-      <span class="px-2 py-1 text-xs ui-font font-semibold tracking-wider"
-            style="background-color:#1a1a25; color:#c41e3a; border:1px solid #c41e3a;">
-       IMPERIAL SECURITY
-      </span>
-      <span class="ui-font text-sm" style="color:#6a6a7a;">
-       2026 • LIVE COVERAGE
-      </span>
-     </div>
-
-     <h1 class="headline-font text-4xl md:text-5xl font-extrabold leading-tight mb-4 text-white">
-      Operation Golden Storm Commences Across Geran Theater
-     </h1>
-
-     <p class="body-font text-xl md:text-2xl mb-8" style="color:#b0b0c0;">
-      Blockade enforcement, special warfare deployments, and coordinated strike operations confirmed across maritime and land domains.
-     </p>
-
-     <!-- SIDE IMAGE 1 -->
-     <div class="md:flex gap-6 items-start my-10">
-
-      <div class="md:w-1/2">
-       <div class="w-full h-56 rounded-lg border flex items-center justify-center text-center p-4"
-            style="border-color:#2a2a35; background:#0f0f18;">
-        <div>
-         <div class="headline-font text-xl font-bold text-white">
-          [ NAVAL BLOCKADE ZONE ]
-         </div>
-         <div class="text-xs ui-font mt-2" style="color:#8a8a9a;">
-          “Knocking Zone” maritime exclusion perimeter
-         </div>
-        </div>
-       </div>
-      </div>
-
-      <div class="md:w-1/2 mt-6 md:mt-0 body-font text-lg leading-relaxed" style="color:#d0d0e0;">
-       Imperial naval forces have established a controlled maritime exclusion zone surrounding Geran waters,
-       enforcing interdiction protocols against military and strategic supply vessels.
-      </div>
-
-     </div>
-
-     <h2 class="headline-font text-2xl font-bold mt-8 mb-4 text-white">
-      Empress Address Authorization
-     </h2>
-
-     <p class="body-font text-lg leading-relaxed mb-6" style="color:#d0d0e0;">
-      Flora Empress Arc X. Xana confirmed the commencement of Operation Golden Storm in a live address to the Xana Realms,
-      citing escalation actions taken by Geran fifteen hours prior.
-     </p>
-
-     <blockquote class="my-8 pl-6 py-4"
-      style="border-left:4px solid #c41e3a; background-color:#0f0f18;">
-
-      <p class="italic text-white headline-font text-lg">
-       "Just fifteen hours ago, the rulers of Geran announced the expansion of mass executions, the mining of the Golden Sea, and the targeting of neutral vessels."
-      </p>
-
-      <p class="italic text-white headline-font text-lg mt-4">
-       "For months, the rulers of Geran have pursued a campaign of fear against their own people. Reports of executions, disappearances, and persecution have shocked the conscience of nations across the globe."
-      </p>
-
-      <p class="italic text-white headline-font text-lg mt-4">
-       "Diplomatic protests were ignored. International warnings were dismissed. The threats against civilian shipping and neutral vessels continued."
-      </p>
-
-      <p class="italic text-white headline-font text-lg mt-4">
-       "Tonight, words have given way to action."
-      </p>
-
-      <p class="italic text-white headline-font text-lg mt-4">
-       "Tonight, the battle has been joined."
-      </p>
-
-     </blockquote>
-
-     <!-- SIDE IMAGE 2 -->
-     <div class="md:flex gap-6 items-start my-12">
-
-      <div class="md:w-1/2 order-2 md:order-1 body-font text-lg leading-relaxed" style="color:#d0d0e0;">
-       Special warfare units, including S.W.O.R.D. and the 2nd Special Warfare Assault Group, are confirmed to be
-       operating across multiple insertion zones under classified mission parameters.
-      </div>
-
-      <div class="md:w-1/2 order-1 md:order-2">
-       <div class="w-full h-56 rounded-lg border flex items-center justify-center text-center p-4"
-            style="border-color:#2a2a35; background:#0f0f18;">
-        <div>
-         <div class="headline-font text-xl font-bold text-white">
-          [ SPECIAL WARFARE INSERTION ]
-         </div>
-         <div class="text-xs ui-font mt-2" style="color:#8a8a9a;">
-          Airborne & covert deployment operations
-         </div>
-        </div>
-       </div>
-      </div>
-
-     </div>
-
-     <!-- SIDE IMAGE 3 -->
-     <div class="md:flex gap-6 items-start my-12">
-
-      <div class="md:w-1/2">
-       <div class="w-full h-56 rounded-lg border flex items-center justify-center text-center p-4"
-            style="border-color:#2a2a35; background:#0f0f18;">
-        <div>
-         <div class="headline-font text-xl font-bold text-white">
-          [ 43rd MISSILE STRIKE GROUP ]
-         </div>
-         <div class="text-xs ui-font mt-2" style="color:#8a8a9a;">
-          Cetas Don Mor-class bombardment vessels in active deployment
-         </div>
-        </div>
-       </div>
-      </div>
-
-      <div class="md:w-1/2 mt-6 md:mt-0 body-font text-lg leading-relaxed" style="color:#d0d0e0;">
-       The 43rd Missile Bombardment Strike Group has transitioned from exercise posture to combat operations,
-       supporting maritime enforcement and strategic strike readiness across the theater.
-      </div>
-
-     </div>
-
-     <h2 class="headline-font text-2xl font-bold mt-8 mb-4 text-white">
-      Operational Status
-     </h2>
-
-     <p class="body-font text-lg leading-relaxed" style="color:#d0d0e0;">
-      All participating Imperial forces are now operating under active combat conditions. Further updates will follow
-      as Golden Storm expands across maritime and land theaters.
-     </p>
-
-    </article>
-   </main>
-
   </div>
  </body>
 </html>
